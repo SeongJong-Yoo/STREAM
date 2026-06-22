@@ -1,0 +1,91 @@
+STREAM — Structural-Temporal Rhythmic Energy-based Attention for Dance Motion Generation
+Copyright (c) 2026 Seong Jong Yoo and the STREAM authors.
+
+================================================================================
+1. LICENSE (STREAM code and Motorica++ annotations)
+================================================================================
+
+The STREAM source code and the Motorica++ *annotations* authored by us (the
+frame-level text labels / segmentation we provide) are licensed under the
+
+    Creative Commons Attribution-NonCommercial 4.0 International License
+    (CC BY-NC 4.0)
+
+To view a copy of this license, visit:
+
+    https://creativecommons.org/licenses/by-nc/4.0/
+    Full legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+In plain terms, you are free to:
+
+  * Share  — copy and redistribute the material in any medium or format.
+  * Adapt  — remix, transform, and build upon the material.
+
+Under the following terms:
+
+  * Attribution  — You must give appropriate credit (see "Citation" below),
+                   provide a link to this license, and indicate if changes were
+                   made.
+  * NonCommercial — You may NOT use the material for commercial purposes. This
+                    includes, without limitation, incorporation into a
+                    commercial product or service, and training machine-learning
+                    models for commercial purposes.
+
+Academic and other non-commercial research use IS permitted. The full,
+legally binding terms are those of CC BY-NC 4.0 at the URL above, which govern
+in case of any conflict with this plain-language summary.
+
+================================================================================
+2. THIRD-PARTY DATA (NOT covered by the license above)
+================================================================================
+
+Motorica++ provides ONLY the annotation layer. The underlying motion and audio
+are NOT ours and are NOT licensed under CC BY-NC 4.0:
+
+  * Motion data — © Motorica AB, all rights reserved. Governed by the original
+    Motorica Dance Dataset license:
+        https://github.com/simonalexanderson/MotoricaDanceDataset/blob/main/LICENSE.txt
+    Among other things, that license prohibits commercial use (including
+    training ML algorithms for commercial purposes) and unauthorized
+    redistribution, requires attribution to the "Motorica Dance Dataset", and
+    permits use for research purposes.
+
+  * Music audio — Each track has its own copyright holder(s) and is NOT covered
+    by either the Motorica license or this one.
+
+You are responsible for independently obtaining and complying with the licenses
+governing the Motorica motion data and any music audio. Nothing in this file
+grants you rights to that third-party content. Where this license and a
+third-party license differ, the more restrictive terms apply to the relevant
+content.
+
+Other third-party components used by this project (e.g., SMPL body models,
+HumanML3D, CLIP, Jukebox/jukemirlib, PyTorch3D) remain subject to their own
+respective licenses.
+
+================================================================================
+3. CITATION (attribution requirement)
+================================================================================
+
+If you use this code or the Motorica++ annotations, you must cite:
+
+    @inproceedings{yoo2026stream,
+      title   = {Text Dictates, Music Decorates: Energy-based Attention for
+                 Editable Dance Motion Generation},
+      author  = {Yoo, Seong Jong and Peng, Siyuan and Gu, Felix and
+                 Aloimonos, Stratis and Fermüller, Cornelia},
+      journal = {European Conference on Computer Vision (ECCV)},
+      year    = {2026},
+    }
+
+================================================================================
+4. DISCLAIMER OF WARRANTY
+================================================================================
+
+THE SOFTWARE AND ANNOTATIONS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING
+FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

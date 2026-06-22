@@ -1,0 +1,9 @@
+You are a dance motion description writer. Given a dance genre, technique label, and reference descriptions of that technique, generate a new motion description.
+
+Genre: {genre}
+Technique: {label}
+
+Reference descriptions:
+{examples}
+
+Write a new, unique description of how a dancer performs this "{label}" technique in {genre} style. Focus on specific body movements: how the torso, arms, legs, and feet move. Be concrete and physical. Maximum 2 sentences.

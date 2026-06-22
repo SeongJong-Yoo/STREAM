@@ -1,0 +1,45 @@
+# STREAM — core Python dependencies
+# Python 3.9 (conda env: edance). Versions pinned to the verified working environment.
+#
+# NOTE: PyTorch, PyTorch3D, and the git-based packages (CLIP, jukemirlib) are
+# NOT listed here because they require dedicated index URLs / build steps.
+# Install them first, following the "Installation" section in README.md, then:
+#     pip install -r requirements.txt
+
+# --- Numerics & data ---
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.3.1
+scikit-learn==1.6.1
+h5py==3.13.0
+lmdb==1.7.3
+einops==0.8.1
+
+# --- Audio ---
+librosa==0.9.2
+soundfile==0.10.3.post1
+
+# --- Motion / 3D math ---
+smplx==0.1.28
+transforms3d==0.4.2
+
+# --- Vision, video & plotting ---
+matplotlib==3.9.4
+opencv-python-headless==4.13.0.92
+moviepy==1.0.3
+Pillow==11.1.0
+
+# --- Models / NLP ---
+transformers==4.57.3
+
+# --- Training stack (must match the installed torch build) ---
+pytorch-lightning==2.5.1
+torchmetrics==0.7.0
+torchdiffeq==0.2.5
+
+# --- Config & utilities ---
+hydra-core==1.3.2
+omegaconf==2.3.0
+PyYAML==6.0.2
+tqdm==4.67.3
+psutil==7.0.0

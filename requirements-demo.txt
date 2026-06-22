@@ -1,0 +1,8 @@
+# STREAM — Demo (Dance Design Studio) extra dependencies
+# Install on top of the core environment:
+#     pip install -r requirements-demo.txt
+
+PyQt5==5.15.11
+pyqtgraph==0.13.7
+PyOpenGL==3.1.10
+google-genai==1.47.0   # AI choreography suggestions (app/backend/suggestion_generator.py)
