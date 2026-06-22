@@ -5,12 +5,14 @@ gdown --folder "https://drive.google.com/drive/folders/1MVddNupLwUWUWuyGlqEDFiUT
 gdown --folder "https://drive.google.com/drive/folders/1F8fy8eP3-GFpp_Udmi-BsFb40fJlas4W?usp=sharing" -O checkpoints
 cd ../..
 
-# Download SMPL model
+# Download SMPL model and normalizer
 cd data
 mkdir smpl
 cd smpl
 gdown 11k8_VE6mA7x5LEIWE02uyMSe5ntgVSvD 
-cd ../..
+cd ..
+gdown 1JsLB3b84UfisWa1DdI_1meLW8L9aOwkV
+gdown 1Te-y0hdhro5479gTV1r81EvX7f6c3hrg 
 
 # Model weights
 cd outputs

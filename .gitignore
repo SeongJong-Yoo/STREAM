@@ -172,8 +172,6 @@ results/*
 
 data/*
 !data/.gitkeep
-!data/normalizer_smpl_motorica_humanml3d.npy
-!data/normalizer_smpl_motorica.npy
 
 src/metric/checkpoints/*
 *.yaml
@@ -212,11 +210,7 @@ out_log/*
 *.ckpt
 smpl2motorica/*
 videos/*
-data/HumanML3D/*
-data/labeling/*
 demo/*
-data/motorica/*
-data/*
 .claude/*
 .omc/*
 search_results/*
