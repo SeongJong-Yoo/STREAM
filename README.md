@@ -7,7 +7,7 @@
 </p>
 
 
-This repository contains code for Structure-Temporal Rhythmic Energy-based Attention for Dance Motion Generation. The code is provided without any warranty. If using this code, please cite our work as shown below. For more information and results please visit our [project website](https://sj-yoo.info/stream/)
+This repository contains code for Structure-Temporal Rhythmic Energy-based Attention for Dance Motion Generation. The code is provided without any warranty. If using this code, please cite our work as shown below. For more information and results please visit our [project website](https://sj-yoo.info/stream/) or check our [paper](https://arxiv.org/abs/2606.22726)
 
 
     @inproceedings{yoo2026stream,
